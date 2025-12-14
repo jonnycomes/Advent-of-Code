@@ -8,7 +8,7 @@ import sys
 import os
 sys.path.append(os.path.join(os.path.dirname(__file__), '..', '..'))
 import aoc
-
+cd
 def parse_input(input_text):
     """Parse the input text into a useful format"""
     lines = input_text.strip().split('\n')
