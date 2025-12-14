@@ -7,12 +7,13 @@ Copy this file to start a new day's solution
 import sys
 import os
 sys.path.append(os.path.join(os.path.dirname(__file__), '..', '..'))
-from utils import read_input
+import aoc
 
 def parse_input(input_text):
     """Parse the input text into a useful format"""
     # TODO: Parse input according to problem requirements
-    return lines
+    data = "CHANGE ME"
+    return data
 
 def part1(data):
     """Solve part 1 of the problem"""
@@ -26,7 +27,7 @@ def part2(data):
 
 def main():
     # Read input
-    input_text = read_input()
+    input_text = aoc.read_input()
     data = parse_input(input_text)
     
     # Solve parts

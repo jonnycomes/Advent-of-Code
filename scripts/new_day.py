@@ -29,7 +29,7 @@ def create_day_folder(year, day):
     print(f"✅ Created {instructions_path}")
 
     # Copy template solution
-    template_path = project_root / "utils" / "templates" / "solution.py"
+    template_path = project_root / "aoc" / "templates" / "solution.py"
     solution_path = day_folder / "solution.py"
     
     if template_path.exists():

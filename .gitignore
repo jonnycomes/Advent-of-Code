@@ -2,9 +2,6 @@
 # These contain personalized puzzle inputs and should not be shared
 **/input.txt
 
-# Optional: ignore test files if they contain copyrighted examples
-# **/test.txt
-
 # Python
 __pycache__/
 *.py[cod]
